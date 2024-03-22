@@ -2,9 +2,32 @@
   background-color: #1f1f1f;
   color: #fff;
   border: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem;
+
+  gap: 2.4rem;
 }
 
 .user__image {
   height: 8.8rem;
   width: 8.8rem;
+  border-radius: 50%;
+  margin-bottom: 2.4rem;
+}
+
+.user__name {
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.user__location {
+  color: #c4f82a;
+  margin-bottom: 2.4rem;
+}
+
+.text {
+  font-weight: 400;
 }

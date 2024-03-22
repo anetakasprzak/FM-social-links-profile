@@ -1,10 +1,11 @@
 import { socialLinks, userData } from "../data";
+import "./MainPage.css";
 
 const { image, name, city, country, skills } = userData;
 
 const MainPage = () => {
   return (
-    <main className="main__page">
+    <main className="main__page wrapper">
       <div className="user">
         <img src={image} alt="user image" className="user__image" />
         <p className="user__name">{name}</p>
