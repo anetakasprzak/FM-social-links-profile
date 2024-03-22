@@ -27,5 +27,17 @@ body {
 .wrapper {
   border-radius: 1.2rem;
   width: 32.7rem;
-  height: auto;
+  height: 57.9rem;
+  display: grid;
+  place-items: center;
+}
+
+.page__text {
+  text-align: center;
+  display: flex;
+  font-size: 2.4rem;
+}
+
+.back__text {
+  font-weight: 400;
 }

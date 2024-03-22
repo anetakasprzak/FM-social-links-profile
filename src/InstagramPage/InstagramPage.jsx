@@ -1,7 +1,11 @@
 import "./InstagramPage.css";
 
 const InstagramPage = () => {
-  return <div>InstagramPage</div>;
+  return (
+    <section className="instagram__page wrapper">
+      <p className="page__text">Instagram Page</p>
+    </section>
+  );
 };
 
 export default InstagramPage;
