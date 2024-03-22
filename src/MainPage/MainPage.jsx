@@ -17,7 +17,11 @@ const MainPage = () => {
 
       <div className="links__box">
         {socialLinks.map(({ id, link }) => {
-          return <button key={id}>{link}</button>;
+          return (
+            <button key={id} className={`btn btn--${id}`}>
+              {link}
+            </button>
+          );
         })}
       </div>
     </main>
