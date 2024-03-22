@@ -24,7 +24,7 @@
 }
 
 .user__location {
-  color: #c4f82a;
+  color: #b0de25;
   margin-bottom: 2.4rem;
 }
 
@@ -36,7 +36,7 @@
   display: flex;
   flex-direction: column;
   align-self: stretch;
-  gap: 1.6rem;
+  gap: 1.8rem;
 }
 
 .btn {
@@ -47,4 +47,35 @@
   background-color: #333;
   color: #fff;
   font-weight: 700;
+
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-0.5rem);
+}
+
+.btn--1:hover {
+  background-color: #4cc90eda;
+}
+
+.btn--2:hover {
+  background-color: #c9140eda;
+}
+
+.btn--3:hover {
+  background-color: #f3e712e2;
+}
+
+.btn--4:hover {
+  background-color: #9d0ec9da;
+}
+
+.btn--5:hover {
+  background-color: #0ebcc9da;
+}
+
+.btn:active {
+  transform: translateY(0.2rem);
 }
