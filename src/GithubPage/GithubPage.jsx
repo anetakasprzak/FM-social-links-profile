@@ -5,7 +5,7 @@ function GithubPage() {
   return (
     <section className="github__page wrapper">
       <p className="page__text">GitHub Page</p>
-      <Link to="/">
+      <Link to="/" className="back__text">
         <span className="back__text">&larr; go back</span>
       </Link>
     </section>

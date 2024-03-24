@@ -5,7 +5,7 @@ function FMPage() {
   return (
     <section className="FM__page wrapper">
       <p className="page__text">Frontend Mentor Page</p>
-      <Link to="/">
+      <Link to="/" className="back__text">
         <span className="back__text">&larr; go back</span>
       </Link>
     </section>

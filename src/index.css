@@ -40,4 +40,16 @@ body {
 
 .back__text {
   font-weight: 400;
+  color: #fff;
+  cursor: pointer;
+
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a {
+}
+
+.back__text:hover {
+  transform: scale(1.4);
 }
