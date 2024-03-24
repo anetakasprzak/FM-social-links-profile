@@ -1,4 +1,5 @@
 import { socialLinks, userData } from "../data";
+import { Link } from "react-router-dom";
 import "./MainPage.css";
 
 const { image, name, city, country, skills } = userData;
@@ -18,9 +19,11 @@ const MainPage = () => {
       <div className="links__box">
         {socialLinks.map(({ id, link }) => {
           return (
-            <button key={id} className={`btn btn--${id}`}>
-              {link}
-            </button>
+            <Link key={id} to={`${link.toLowerCase()}`}>
+              <button key={id} className={`btn btn--${id}`}>
+                {link}
+              </button>
+            </Link>
           );
         })}
       </div>
